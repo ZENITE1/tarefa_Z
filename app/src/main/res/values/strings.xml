@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TarefasZ</string>
+    <string name="tab_1">Motiva</string>
+    <string name="tab_2">Intro</string>
+    <string name="tab_3">Desen</string>
+    <string name="tab_4">Avalia</string>
+    <string name="obj1">Avalia</string>
+    <string name="obj2">Avalia</string>
+    <string name="tema">
+        Construido telas com rolagem vertical
+    </string>
+    <string name="objectivo">
+        <ol>
+            <li>Construido telas com rolagem vertical</li>
+            <li>Construido telas com rolagem vertical</li>
+        </ol>
+    </string>
+    <string name="content">Hoje, o Android é a plataforma mobile mais utilizada. Vejamos alguns dados estatísticos para
+entender o alcance que essa plataforma tem pelo mundo.\n Outro dado muito interessante é a quantidade de aparelhos em que o Android está presente,
+85% dos aparelhos em mais de 190 países. E esses números não param de crescer, pois
+segundo o Google, a cada dia, mais de um milhão de usuários novos chegam ao Android para
+consumir jogos e aplicativos.\n Claro que, com todas essas pessoas utilizando a plataforma, gera muita demanda para a
+criação de aplicativos e jogos de diversas áreas. Toda essa demanda de desenvolvimento de aplicativos acaba influenciando o mercado de
+trabalho de desenvolvimento de aplicativos e jogos. Hoje, o mercado mobile está muito
+aquecido e muito exigente para com o desenvolvedor mobile.
+Muitos desenvolvedores usam seu tempo livre para desenvolver aplicativos próprios e publicar
+na Google Play, para lucrar com a venda ou publicidade. Existem também um mercado muito
+grande de trabalhos de freelancer, principalmente, vindos de agências que têm uma demanda
+muito grande de projetos.
+</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:textSize="20sp"
+    android:textStyle="bold"
+    android:padding="16dp"
+        android:gravity="center"
+    android:textAlignment="center"
+    android:id="@+id/content_view"
+    android:text="Olá fulano tudo bem \nererr \nerrr \nwrere\jkiiuh\nuugygugug\ngugugn\nugugug\nuguguug\nyyugu\ngugu\n\n\n\n\n\nererrerer\ntrtrtrtn\n\ngrgtrt\n\ugugugugugu\nji\niii\n\n\ntrtr\nyuyuy\n\n\n\nui\niii\ni\i\i\niiiiijjj\njjki\n"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+</ScrollView>

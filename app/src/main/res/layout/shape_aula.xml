@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:background="@drawable/write_background_top"
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/shape_aula_motivacao_tema"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="6dp"
+            android:text="Trabalhando com ScrowView"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/shape_aula_motivacao_obj1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="6dp"
+            android:text="(*) No final desta lição saberas o que é ScrowView e como usalos nos layouts dos teus apps"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/shape_aula_motivacao_obj2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="(**) Serás capaz de construir telas com rolagem vertical e horizontal"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:layout_marginBottom="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/shape_aula_motivacao_paragrafointrodutorio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="36dp"
+            android:layout_weight="1"
+            android:text="Um novo espasmo de dor fez Reba ergue sua cabeça com um solavanco. ela pressionou as cordas que prendiam seu corpo, amarradas em torno de seu estômago a um cano vertical que havia sido instalado do piso ao teto no meio da pequena sala. Seus pulsos form amarrados na frente e seus tornozelos estavam atados.\n "
+            android:textColor="@color/teal_200"
+            android:textSize="16sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
+</ScrollView>
